@@ -1194,6 +1194,50 @@
         "Built": "R 4.1.2; x86_64-apple-darwin17.0; 2022-03-31 11:35:48 UTC; unix"
       }
     },
+    "mapproj": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.rstudio.com/all/latest/",
+      "description": {
+        "Package": "mapproj",
+        "Title": "Map Projections",
+        "Version": "1.2.7",
+        "Date": "2020-01-31",
+        "Author": "Doug McIlroy.  Packaged for R by Ray Brownrigg and Thomas P\n        Minka, transition to Plan 9 codebase by Roger Bivand.",
+        "Description": "Converts latitude/longitude into projected coordinates.",
+        "Depends": "R (>= 3.0.0), maps (>= 2.3-0)",
+        "Imports": "stats, graphics",
+        "License": "Lucent Public License",
+        "Maintainer": "Alex Deckmyn <alex.deckmyn@meteo.be>",
+        "NeedsCompilation": "yes",
+        "Packaged": "2020-02-03 08:19:33 UTC; alex",
+        "Repository": "CRAN",
+        "Date/Publication": "2020-02-03 10:10:02 UTC",
+        "Built": "R 4.1.0; x86_64-apple-darwin17.0; 2021-05-25 21:51:29 UTC; unix"
+      }
+    },
+    "maps": {
+      "Source": "CRAN",
+      "Repository": "https://packagemanager.rstudio.com/all/latest/",
+      "description": {
+        "Package": "maps",
+        "Title": "Draw Geographical Maps",
+        "Version": "3.4.0",
+        "Date": "2021-09-25",
+        "Author": "Original S code by Richard A. Becker and Allan R. Wilks.\n\tR version by Ray Brownrigg.\n        Enhancements by Thomas P Minka and Alex Deckmyn.",
+        "Description": "Display of maps.  Projection code and larger maps are in\n             separate packages ('mapproj' and 'mapdata').",
+        "Depends": "R (>= 3.5.0)",
+        "Imports": "graphics, utils",
+        "LazyData": "yes",
+        "Suggests": "mapproj (>= 1.2-0), mapdata (>= 2.3.0), sp, rnaturalearth",
+        "License": "GPL-2",
+        "Maintainer": "Alex Deckmyn <alex.deckmyn@meteo.be>",
+        "NeedsCompilation": "yes",
+        "Repository": "CRAN",
+        "Packaged": "2021-09-25 20:13:49 UTC; alex",
+        "Date/Publication": "2021-09-25 20:40:03 UTC",
+        "Built": "R 4.1.0; x86_64-apple-darwin17.0; 2021-09-26 11:32:07 UTC; unix"
+      }
+    },
     "marmap": {
       "Source": "CRAN",
       "Repository": "https://packagemanager.rstudio.com/all/latest/",
@@ -2133,7 +2177,7 @@
       "checksum": "252a35f51ad6eadce4466794e4c6d8e9"
     },
     "paramstest.Rmd": {
-      "checksum": "f0fda36efd9b7919f96b53fe9775cb13"
+      "checksum": "8ca0b3cd4c1f660b9e20cf5f0e985895"
     }
   },
   "users": null
